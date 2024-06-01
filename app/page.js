@@ -6,8 +6,10 @@ export default function Home() {
     <div>
       <Header />
       <main className="p-4">
-        <h2>Welcome to my portfolio</h2>
-        <p>This is a brief introduction.</p>
+        <h2>Ayesha Afroza Mohsin</h2>
+        <p>
+          An enthusiastic coder, with a passion for trying new technologies.
+        </p>
       </main>
       {/* <Footer /> */}
     </div>

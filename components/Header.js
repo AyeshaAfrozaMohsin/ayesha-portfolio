@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => (
   <header className="flex justify-between items-center p-4 bg-gray-800 text-white">
-    <h1 className="text-lg">My Portfolio</h1>
+    <h1 className="text-lg">Ayesha Afroza Mohsin</h1>
     <nav>
       <ul className="flex space-x-4">
         <li>
