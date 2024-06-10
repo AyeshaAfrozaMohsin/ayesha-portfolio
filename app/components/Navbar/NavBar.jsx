@@ -7,8 +7,8 @@ import ThemeToggle from "./ThemeToggle";
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div>
-      <nav className="w-full dark:bg-medium dark:text-darkText text-lightText bg-panelLight top-0 left-0 right-0 z-10 sticky shadow-md">
+    <div className="flex-1">
+      <nav className=" w-full dark:bg-medium dark:text-darkText text-lightText bg-panelLight top-0 left-0 right-0 z-10  shadow-md">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-4">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -18,6 +18,7 @@ function NavBar() {
                   AYESHA AFROZA MOHSIN
                 </h2>
               </Link>
+
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
@@ -37,23 +38,23 @@ function NavBar() {
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex text-lightText dark:text-darkText">
                 <li className="p-6 m-2 text-xl text-center rounded-lg hover:bg-teal-400 hover:text-white dark:hover:text-white dark:hover:bg-cyan-600 md:p-3 md:px-6 transform-transition duration-300 hover:shadow-lg">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
-                    About
+                  <Link href="#education" onClick={() => setNavbar(!navbar)}>
+                    Education
                   </Link>
                 </li>
                 <li className="p-6 m-2 text-xl text-center rounded-lg hover:bg-teal-400 hover:text-white dark:hover:text-white dark:hover:bg-cyan-600 md:p-3 md:px-6 transform-transition duration-300 hover:shadow-lg">
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
-                    Blog
-                  </Link>
-                </li>
-                <li className="p-6 m-2 text-xl text-center rounded-lg hover:bg-teal-400 hover:text-white dark:hover:text-white dark:hover:bg-cyan-600 md:p-3 md:px-6 transform-transition duration-300 hover:shadow-lg">
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
-                    Contact
+                  <Link href="#awards" onClick={() => setNavbar(!navbar)}>
+                    Awards
                   </Link>
                 </li>
                 <li className="p-6 m-2 text-xl text-center rounded-lg hover:bg-teal-400 hover:text-white dark:hover:text-white dark:hover:bg-cyan-600 md:p-3 md:px-6 transform-transition duration-300 hover:shadow-lg">
                   <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                     Projects
+                  </Link>
+                </li>
+                <li className="p-6 m-2 text-xl text-center rounded-lg hover:bg-teal-400 hover:text-white dark:hover:text-white dark:hover:bg-cyan-600 md:p-3 md:px-6 transform-transition duration-300 hover:shadow-lg">
+                  <Link href="#skills" onClick={() => setNavbar(!navbar)}>
+                    Skills
                   </Link>
                 </li>
                 <li className="flex justify-center items-center p-6 m-2">
