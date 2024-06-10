@@ -2,7 +2,7 @@ export default function Education() {
   return (
     <section id="education">
       <h1 className="font-bold text-lg">EDUCATION</h1>{" "}
-      <ul className="">
+      <ul className="grid grid-cols-1 lg:grid-cols-2 ">
         <li className="p-4 m-6 bg-pink-700 rounded-3xl">
           <h2 className="text-lg font-bold">B.Sc in SWE, CSE</h2>
           <h3>GPA 3.93/4.00</h3>
