@@ -13,7 +13,7 @@ export default function DownloadButton() {
   return (
     <button
       onClick={handleDownload}
-      className="bg-pink-400 dark:bg-pink-700 p-3 rounded-full shadow-md font-bold dark:text-gray-300"
+      className="bg-pink-400 dark:bg-pink-700 p-4 rounded-full shadow-md font-bold dark:text-gray-300"
     >
       Download CV
     </button>

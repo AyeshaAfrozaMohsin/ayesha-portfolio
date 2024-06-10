@@ -1,7 +1,7 @@
-export default function About() {
+export default function Skills() {
   return (
-    <section id="about">
-      <h1 className="font-bold text-lg">ABOUT</h1>{" "}
+    <section id="skills">
+      <h1 className="font-bold text-lg">SKILLS</h1>{" "}
       <main className="p-4">
         <h2>Ayesha Afroza Mohsin here</h2>
         <p>

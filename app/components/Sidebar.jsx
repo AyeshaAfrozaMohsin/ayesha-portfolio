@@ -8,7 +8,7 @@ import DownloadButton from "./DownloadButton";
 
 const Sidebar = () => {
   return (
-    <div className="w-1/4 overflow-y-auto dark:bg-slate-900 bg-stone-300 text-stone-800 dark:text-white hidden md:flex md:flex-col justify-between p-4 shadow-lg">
+    <div className="w-1/4 dark:bg-slate-900 bg-zinc-200 text-stone-800 dark:text-white hidden md:flex md:flex-col justify-between p-4 shadow-lg">
       <div>
         <div className="flex items-center justify-center p-1">
           <Image
@@ -19,33 +19,33 @@ const Sidebar = () => {
             height={200}
           />
         </div>
-        <nav className="mt-8">
+        <div className="mt-8">
           <ul className="space-y-2 px-2">
             <li className="flex justify-content py-2">
               <FontAwesomeIcon
                 icon={faMapMarkerAlt}
-                className="text-red-600 mr-2 w-5 dark:text-pink-600"
+                className="text-red-600 mr-2 w-5 dark:text-pink-600 flex-shrink-0"
               />
               <p>Farmgate, Dhaka-1215</p>
             </li>
             <li className="flex justify-content py-2">
               <FontAwesomeIcon
                 icon={faEnvelope}
-                className="text-sky-700 mr-2 w-5 dark:text-sky-500"
+                className="text-sky-700 mr-2 w-5 dark:text-sky-500 flex-shrink-0"
               />
               <p>ayeshaafroza@iut-dhaka.edu</p>
             </li>
             <li className="flex justify-content py-2">
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className="text-blue-700 mr-2 w-5 dark:text-blue-400"
+                className="text-blue-700 mr-2 w-5 dark:text-blue-400 flex-shrink-0"
               />
               <p>/ayesha-afroza-mohsin</p>
             </li>
             <li className="flex justify-content py-2">
               <FontAwesomeIcon
                 icon={faGithub}
-                className="text-gray-900 mr-2 w-5 dark:text-gray-100"
+                className="text-gray-900 mr-2 w-6 dark:text-gray-100 flex-shrink-0"
               />
               <p>/AyeshaMohsin</p>
             </li>
@@ -53,7 +53,7 @@ const Sidebar = () => {
               <DownloadButton />
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
       <footer className="text-center">
         <p className="text-sm">
