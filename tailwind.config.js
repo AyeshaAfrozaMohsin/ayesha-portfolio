@@ -15,7 +15,7 @@ module.exports = {
       // },
       colors: {
         dark: "#151b2a",
-        medium: "#293245",
+        medium: "#262f45",
         darkText: "#b8c2c7",
         lightText: "#000d2b",
         panelLight: "#94efe9",

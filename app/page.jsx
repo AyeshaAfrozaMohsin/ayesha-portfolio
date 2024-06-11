@@ -14,7 +14,7 @@ export default function Home() {
       <NavBar />
       <div className="flex-1 flex h-full">
         <Sidebar />
-        <div className="flex-1 text-stone-900 dark:bg-gray-800 dark:text-zinc-200 py-6">
+        <div className="flex-1 text-stone-900  dark:bg-gray-800 dark:text-zinc-200 pt-6">
           <div className="p-4">
             <About />
             <Education />

@@ -1,5 +1,3 @@
-// components/Sidebar.js
-
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -8,7 +6,7 @@ import DownloadButton from "./DownloadButton";
 
 const Sidebar = () => {
   return (
-    <div className="w-1/4 dark:bg-slate-900 bg-zinc-200 text-stone-800 dark:text-white hidden md:flex md:flex-col justify-between p-4 shadow-lg">
+    <div className="w-1/4 lg:w-1/5 dark:bg-slate-900 bg-zinc-200 text-stone-800 dark:text-white hidden md:flex md:flex-col justify-between p-4 shadow-lg">
       <div>
         <div className="flex items-center justify-center p-1">
           <Image
@@ -26,28 +24,52 @@ const Sidebar = () => {
                 icon={faMapMarkerAlt}
                 className="text-red-600 mr-2 w-5 dark:text-pink-600 flex-shrink-0"
               />
-              <p>Farmgate, Dhaka-1215</p>
+              <a
+                href="https://maps.app.goo.gl/rbgjwbXBUjRGz6ca9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Farmgate, Dhaka-1215
+              </a>
             </li>
             <li className="flex justify-content py-2">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="text-sky-700 mr-2 w-5 dark:text-sky-500 flex-shrink-0"
               />
-              <p>ayeshaafroza@iut-dhaka.edu</p>
+              <a
+                href="mailto:ayeshaafroza@iut-dhaka.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ayeshaafroza@iut-dhaka.edu
+              </a>
             </li>
             <li className="flex justify-content py-2">
               <FontAwesomeIcon
                 icon={faLinkedin}
                 className="text-blue-700 mr-2 w-5 dark:text-blue-400 flex-shrink-0"
               />
-              <p>/ayesha-afroza-mohsin</p>
+              <a
+                href="https://www.linkedin.com/in/ayesha-afroza-mohsin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                /ayesha-afroza-mohsin
+              </a>
             </li>
             <li className="flex justify-content py-2">
               <FontAwesomeIcon
                 icon={faGithub}
                 className="text-gray-900 mr-2 w-6 dark:text-gray-100 flex-shrink-0"
               />
-              <p>/AyeshaMohsin</p>
+              <a
+                href="https://github.com/AyeshaMohsin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                /AyeshaMohsin
+              </a>
             </li>
             <li className="flex justify-center">
               <DownloadButton />
